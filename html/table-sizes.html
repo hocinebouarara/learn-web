@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Sizes</title>
+
+    <style>
+        #table1,
+        .th1,
+        .td1 {
+            text-align: center;
+            border: 2px solid violet;
+            border-radius: 8px;
+        }
+
+        #table2,
+        .th2,
+        .td2 {
+            text-align: center;
+            border: 2px solid violet;
+            border-style: solid;
+        }
+
+        #table3 {
+            color: ivory;
+            background-color: #123456;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+        }
+
+        .th3 {
+
+            text-align: center;
+            border-radius: 20px;
+            border-collapse: collapse;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    
+
+
+
+
+    <h1>HTML Table Width</h1>
+
+    <table id="table1" style="width: 100%;">
+        <thead>
+            <tr>
+                <th class="th1">Firstname</th>
+                <th class="th1">Lastname</th>
+                <th class="th1">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td1">Hocine</td>
+                <td class="td1">BOUARARA</td>
+                <td class="td1">26</td>
+            </tr>
+            <tr>
+                <td class="td1">fatiha</td>
+                <td class="td1">kacem</td>
+                <td class="td1">24</td>
+            </tr>
+            <tr>
+                <td class="td1">oussama</td>
+                <td class="td1">berdi</td>
+                <td class="td1">25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="td1">abdelhamid</td>
+                <td class="td1">mounis</td>
+                <td class="td1">25</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <h1>HTML Table Column Width</h1>
+
+    <table id="table2" style="width: 100%;">
+        <thead>
+            <tr>
+                <th class="th2">Firstname</th>
+                <th class="th2" style="width: 70%;">Lastname</th>
+                <th class="th2">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td2">fatiha</td>
+                <td class="td2">kacem</td>
+                <td class="td2">24</td>
+            </tr>
+            <tr>
+                <td class="td2">oussama</td>
+                <td class="td2">berdi</td>
+                <td class="td2">25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="td2">abdelhamid</td>
+                <td class="td2">mounis</td>
+                <td class="td2">25</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <h1>HTML Table Width</h1>
+
+    <table id="table3" style="width: 100%;">
+        <thead>
+            <tr>
+                <th class="th3">Photo</th>
+                <th class="th3">Firstname</th>
+                <th class="th3">Lastname</th>
+                <th class="th3">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td3"><img src="img/myImg.png" alt="hocine bouarara"
+                        style="width:60px ; height: 60px; border-radius:100px ;"></td>
+                <td class="td3">Hocine</td>
+                <td class="td3">BOUARARA</td>
+                <td class="td3">26</td>
+            </tr>
+            <tr style="height: 70px;">
+                <td class="td3"><img src="img/𝐒𝐚𝐤𝐮𝐫𝐚𝐣𝐢𝐦𝐚 𝐌𝐚𝐢_.png" style="width: 60px;height: 60px;border-radius: 100px;" alt="fatiha kacem"></td>
+                <td class="td3">fatiha</td>
+                <td class="td3">kacem</td>
+                <td class="td3">24</td>
+            </tr>
+            <tr>
+                <td class="td3"><img src="img/oussama.jpg" style="width: 60px;height: 60px;border-radius: 100px;" alt="oussama berdi"></td>
+                <td class="td3">oussama</td>
+                <td class="td3">berdi</td>
+                <td class="td3">25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="td3"><img src="img/abdehamid.jpg" style="width: 60px;height: 60px;border-radius: 100px;" alt="abdelhamid mounis"></td>
+                <td class="td3">abdelhamid</td>
+                <td class="td3">mounis</td>
+                <td class="td3">25</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+</body>
+
+</html>

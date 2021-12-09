@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+
+<body>
+    <h1>The input Element </h1>
+    <label for="fname">First name:</label>
+    <input type="text" name="fname" id="fname">
+
+    <h1>The select Element</h1>
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <h1>The textarea Element </h1>
+    <textarea name="message" cols="30" rows="10">
+        The cat was playing in the garden
+    </textarea>
+
+    <h1>The button Element</h1>
+    <button type="button" onclick="alert('Hello World! ')">Click Me!</button>
+
+    <h1> The fieldset and legend Elements</h1>
+    <form action="table-sizes.html">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname" id="fname" value="Hocine"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" name="lname" id="lname" value="Bouarara"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <h1>The datalist Element</h1>
+    <form action="table-sizes.html">
+        <input list="browsers">
+        <datalist>
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Oper"></option>
+            <option value="Safari"></option>
+        </datalist>
+        <input type="submit" >
+    </form>
+</body>
+
+</html>

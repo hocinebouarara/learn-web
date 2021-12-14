@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Attributes</title>
+</head>
+
+<body>
+    <h1> The readonly Attribute</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname" value="Hocine" readonly><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" id="lname" value="Bouarara"><br>
+    </form>
+
+    <h1>The disabled Attribute</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname" value="Hocine" disabled><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Bouarara"><br>
+    </form>
+    <h1>The size Attribute</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" size="4">
+    </form>
+
+    <h1>The maxlength Attribute</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+    </form>
+
+    <h1>The min and max Attributes</h1>
+
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" name="datemax" id="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" name="datemin" id="datemin" min="2000-01-02"><br><br>
+        <label for="quantity">Quantity (between 1 and 5 ):</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="5">
+    </form>
+
+
+
+
+
+</body>
+
+</html>

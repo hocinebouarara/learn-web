@@ -1,0 +1,24 @@
+#divOnce{
+    background-color: indianred;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+#divTwo{
+    background-color: indigo;
+    margin: 100px 150px 100px 80px;
+}
+#divThree{
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+#divFourth{
+    width: 300px;
+    border: 2px solid red;
+    margin-left: 100px;
+}
+p.ex1{
+    margin-left: inherit;
+}

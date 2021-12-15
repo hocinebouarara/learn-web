@@ -44,3 +44,9 @@
 .mix{
     border-style: dotted dashed solid double;
 }
+h2{
+    border: 3px solid red;
+}
+#first{
+    border-bottom: 4px solid #123456;
+}

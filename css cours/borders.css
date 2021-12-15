@@ -1,6 +1,6 @@
 .dotted{
     border-style: dotted;
-    border-width: 3px;
+    border-width: medium;
 }
 .dashed{
     border-style: dashed;
@@ -12,7 +12,7 @@
 }
 .double{
     border-style: double;
-    border-width: 3px;
+    border-width: thick;
 }
 .groove{
     border-style: groove;

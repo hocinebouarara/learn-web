@@ -1,0 +1,20 @@
+#divOnce{
+    background-color: lightcoral;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
+
+#divTwo{
+    background-color: indigo;
+    padding: 50px 30px 50px 80px;
+}
+#divThree{
+    background-color: lightskyblue;
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}

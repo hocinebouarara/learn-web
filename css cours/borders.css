@@ -1,17 +1,22 @@
 .dotted{
     border-style: dotted;
+    border-width: 3px;
 }
 .dashed{
     border-style: dashed;
+    border-width: 4px;
 }
 .solid{
     border-style: solid;
+    border-width: 5px 7px 3px 2px;
 }
 .double{
     border-style: double;
+    border-width: 3px;
 }
 .groove{
     border-style: groove;
+    border-width: 4px;
 }
 .ridge{
     border-style: ridge;

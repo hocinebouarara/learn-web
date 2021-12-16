@@ -55,3 +55,12 @@ h2{
 .underline{
     text-decoration: underline;
 }
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+p.capitalize{
+    text-transform: capitalize;
+}

@@ -1,6 +1,6 @@
 body{
-    color: blue;
-    background-color: cyan;
+    color: black;
+    
 
 }
 h1{
@@ -42,4 +42,16 @@ h2{
 }
 .e{
     vertical-align: super;
+}
+.none{
+    text-decoration: none; 
+}
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
 }

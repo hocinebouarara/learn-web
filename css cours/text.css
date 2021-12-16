@@ -85,3 +85,16 @@ p.capitalize{
 #white-space{
     white-space: nowrap;
 }
+/*Text shadow*/
+#shadow-x-y{
+    font-size: 24px;
+    text-shadow: 2px 2px;
+}
+#shadow-x-y-color{
+    font-size: 24px;
+    color: brown;
+    text-shadow: 2px 2px blue;
+}#shadow-x-y-z-color{
+    font-size: 24px;
+    text-shadow: 2px 2px 5px red;
+}

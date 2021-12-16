@@ -1,0 +1,45 @@
+body{
+    color: blue;
+    background-color: cyan;
+
+}
+h1{
+    color: brown;
+}
+
+h2{
+    color: red;
+}
+
+#divOnce h1{
+    text-align: center;
+}
+#divOnce h2{
+    text-align: left;
+}
+#divOnce h3{
+    text-align: right;
+}
+
+#last{
+    text-align-last: center;
+}
+#dirc{
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+.a{
+    vertical-align: baseline;
+}
+.b{
+    vertical-align: text-top;
+}
+.c{
+    vertical-align: text-bottom;
+}
+.d{
+    vertical-align: sub;
+}
+.e{
+    vertical-align: super;
+}
